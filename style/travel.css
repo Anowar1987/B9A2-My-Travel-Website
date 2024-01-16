@@ -94,6 +94,12 @@ div img {
     margin-top: 20px;
 }
 
+img {
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+}
+
 .destination-img-1 {
     width: 90%;
     height: 90%;
@@ -139,8 +145,102 @@ div img {
     height: 286px;
 }
 
-/* .Image-04 {
-    width: 473px;
-    height: 300px;
-    margin-left: -40px;
-} */
+/* <!-- Why Choose us style start --> */
+.choose-title {
+    margin-top: 100px;
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.choose-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+/* <!-- Why Choose us style start --> */
+
+.first-box {
+    margin-top: 100px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background-color: rgba(251, 181, 99, 0.05);
+}
+
+.first-box,
+img {
+    width: 50%;
+    height: 50%;
+}
+
+
+
+
+.news-container {
+    display: flex;
+    margin-top: 100px;
+}
+.news-description {
+    margin-left: 135px;
+}
+.news-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.news-par-des{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.input-item{
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px; 
+}
+.news-image{
+    border-radius: 16px;
+
+}
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    width: 1440px;
+    height: 502px;
+}
+.footer-heading{
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 110px;
+}
+.footer-des{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+}
+.footer-img{
+    width: 25%;
+    margin-top: 35px;
+    margin-left: 535px;
+}
+.footer-line-img{
+    background: rgba(19, 19, 24, 0.10);
+}
+.footer-des-2{
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 80px;
+}
